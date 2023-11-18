@@ -1,9 +1,9 @@
 <script>
-	export let name;
+
 </script>
 
 <main>
-
+<p> yo wsg</p>
 </main>
 
 <style>
