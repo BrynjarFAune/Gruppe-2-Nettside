@@ -12,4 +12,4 @@ Brynjar:
 Database + Item
 
 James:
-begynn med backend
+design admin page i figma
