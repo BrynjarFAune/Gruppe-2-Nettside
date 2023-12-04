@@ -90,8 +90,4 @@ footer {
 .footer-content > p {
     color: #ffffff;
 }
-
-main {
-min-height: 100vh;
-}
 </style>
