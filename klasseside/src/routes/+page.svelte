@@ -4,7 +4,7 @@
 
 <!-- src/routes/page1.svelte -->
 <script context="module">
-  export const layout = import('../+layout.svelte');
+  export const layout = import('./+layout.svelte');
 </script>
 
 <!-- Rest of the component -->
