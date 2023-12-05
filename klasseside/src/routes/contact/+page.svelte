@@ -11,7 +11,7 @@
     </div>
 
 <style>
-}
+
 .Kontakskjema{
     display: flex;
     justify-content: center;
@@ -24,6 +24,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
+
 button{
     color: black;
     background-color: white;
