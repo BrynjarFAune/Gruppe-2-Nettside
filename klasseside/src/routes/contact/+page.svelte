@@ -1,14 +1,13 @@
 
-    <div class="Kontakskjema">
+    <form class="Kontakskjema">
         <label>Name</label>
         <input type="text" required title="Name">
         <label>E-post</label>
         <input type="text" required title="Email">
         <label>Hva gjelder det?</label>
         <textarea required id="Hva_gjelder_det" cols="30" rows="10"></textarea>
-        
         <button>Submit</button>
-    </div>
+    </form>
 
 <style>
 
