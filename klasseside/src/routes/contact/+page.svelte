@@ -1,3 +1,4 @@
+
 <div class="back_img">
     <div class="content">
         <div class="form-image"></div>
@@ -46,22 +47,4 @@ color: black;
 background-color: white;
 margin: 7px;
 border-radius: 3px;
-}
-.content {
-min-height: 10px;
-height: fit-content;
-width: fit-content;
-display: flex;
-flex-direction: row;
-margin-left: 50%;
-margin-right: 15%;
-margin-top: 15%;
-transform: translateX(-50%) translateY(-50%);
-
-}
-.form-image {
-background-color: black;
-width: 300px;
-height: 330px;
-}
 </style>

@@ -1,16 +1,20 @@
+<main>
 
 <header>
+<div class="header">
+
 <div class="content">
 
 <p class="contact">Ring kontaktperson: +47 123 123 123</p>
 <section class="medier">
 <div class="twitter-wrapper">bird</div>
-<div class="tiktok-wrapper"></div>
-<div class="facebook-wrapper"></div>
-<div class="instagram-wrapper"></div>
+<div class="tiktok-wrapper">tiktok</div>
+<div class="facebook-wrapper">facebook</div>
+<div class="instagram-wrapper">insta</div>
 </section>
 </div>
-</header>
+</div>
+
 
 <nav>
 <div class="content">
@@ -31,6 +35,7 @@
 </span>
 </div>
 </nav>
+</header>
 
 <slot></slot>
 
@@ -42,11 +47,24 @@
 </div>
 </footer>
 
-<style>
+</main>
+
+<style global>
 
 * {
     margin: 0;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: block;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+slot {
+    flex: 1 auto;
 }
 
 a, a > * {
@@ -56,8 +74,19 @@ a, a > * {
 /* Header styling */
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header {
+    flex-direction: row;
     height: 31px;
-    background-color: #C9C9CA;
+    background-color: #c9c9ca;
 }
 
 
@@ -120,6 +149,10 @@ footer {
     background-color: #1E1E1E;
     color: #ffffff;
     font-size: 12;
+}
+
+.medier > * {
+    margin: 10px;
 }
 
 </style>
