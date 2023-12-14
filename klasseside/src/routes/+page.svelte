@@ -12,14 +12,6 @@
 
 </section>
 
-
-<!-- src/routes/page1.svelte -->
-<script context="module">
-  export const layout = import('./+layout.svelte');
-</script>
-
-<!-- Rest of the component -->
-
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;300&display=swap');
@@ -30,6 +22,7 @@
   }
   
   section {
+      z-index: -1;
     display: flex;
     justify-content: center;
     position: relative;
