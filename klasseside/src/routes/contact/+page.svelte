@@ -22,20 +22,6 @@
 
 <style>
 
-
-/*
-.back_img{
-position: fixed;
-height: calc(100vh - 96px - 67px); /* 100vh - Header height - Footer height *
-flex: 1;
-background-image: url(./background-contact.png);
-background-size: cover;
-background-repeat: no-repeat;
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-}*/
 .Kontakskjema{
 display: flex;
 justify-content: center;
@@ -44,7 +30,8 @@ flex-direction: column;
 font-family: Arial, Helvetica, sans-serif;
 text-align: left;
 background-color: lightgray;
-padding: 20px;
+paddin-left: 20px;
+padding-right:20px;
 width: 350px;
 }
 
@@ -73,8 +60,8 @@ border-radius: 3px;
 
 .form-image {
     overflow: hidden;
-    height: fit-content;
-    width: 50%;
+    height: 100%;
+    width: fit-content;
 }
 
 img {
@@ -85,8 +72,8 @@ img {
 .content {
     width: 735px;
     height: 507px;
+    display: flex;
     flex-direction: row;
-    background-color: red;
     justify-content: space-evenly;
     align-items: center;
 }
