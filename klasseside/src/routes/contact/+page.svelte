@@ -44,9 +44,12 @@ flex-direction: column;
 font-family: Arial, Helvetica, sans-serif;
 text-align: left;
 background-color: lightgray;
-padding: 20px;
 width: 350px;
+height: 100%;
+padding: 0 20px;
 }
+
+
 
 button{
 color: black;
@@ -74,7 +77,7 @@ border-radius: 3px;
 .form-image {
     overflow: hidden;
     height: fit-content;
-    width: 50%;
+    width: fit-content;
 }
 
 img {
@@ -85,10 +88,11 @@ img {
 .content {
     width: 735px;
     height: 507px;
+    display: flex;
     flex-direction: row;
-    background-color: red;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 3px;
 }
 
 </style>
