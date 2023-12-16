@@ -6,7 +6,7 @@
         </div>
     <form class="Kontakskjema">
             
-  <label for="name">Name</label>
+  <label for="name">Navn</label>
   <input type="text" id="name" required title="Name">
   
   <label for="email">E-post</label>
